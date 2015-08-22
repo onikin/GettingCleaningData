@@ -71,5 +71,80 @@ This dataset is distributed AS-IS and no responsibility implied or explicit can 
 
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
 
-## Update
+## Updated Tidy Dataset
+
+The updated tidy dataset that is the result of the run_analysis.R script is a merged dataset consisting of both the training and testing data combined into a singular dataset. As part of the analysis, we extracted only the Mean and Standard Deviation of the measurement data from the original data. Furthermore, we then calculated the mean of the extracted data grouped by subject and activity. 
+
+### Fields
+
+Each row represents a combination of individual subject and individual activity
+ 
+- Subject: Numeric value indicating the subject whose data has been recorded. Range: 1-30
+- Activity: The activity the subject was performing while data was collected: Range: (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+- "Avg Body Acceleration In X" - Group mean of the average value of this parameter.  
+- "Avg Body Acceleration In Y" 
+- "Avg Body Acceleration In Z" 
+- "Avg Gravity Acceleration In X" 
+- "Avg Gravity Acceleration In Y" 
+- "Avg Gravity Acceleration In Z" 
+- "Avg Body Acceleration Jerk In X" 
+- "Avg Body Acceleration Jerk In Y" 
+- "Avg Body Acceleration Jerk In Z" 
+- "Avg Body Gyro In X" 
+- "Avg Body Gyro In Y" 
+- "Avg Body Gyro In Z" 
+- "Avg Body Gyro Jerk In X" 
+- "Avg Body Gyro Jerk In Y" 
+- "Avg Body Gyro Jerk In Z" 
+- "Avg Magnitude of Body Acceleration" 
+- "Avg Magnitude of Gravity Acceleration" 
+- "Avg Magnitude of Body Acceleration Jerk" 
+- "Avg Magnitude of Body Gyro" 
+- "Avg Magnitude of Body Gyro Jerk" 
+- "Fourier Response of Avg Body Acceleration In X" 
+- "Fourier Response of Avg Body Acceleration In Y" 
+- "Fourier Response of Avg Body Acceleration In Z" 
+- "Fourier Response of Avg Body Acceleration Jerk In X" 
+- "Fourier Response of Avg Body Acceleration Jerk In Y" 
+- "Fourier Response of Avg Body Acceleration Jerk In Z" 
+- "Fourier Response of Avg Body Gyro In X" 
+- "Fourier Response of Avg Body Gyro In Y" 
+- "Fourier Response of Avg Body Gyro In Z" 
+- "Fourier Response of Avg Magnitude of Body Acceleration" 
+- "Fourier Response of Avg Magnitude of Body Acceleration Jerk" 
+- "Fourier Response of Avg Magnitude of Body Gyro" 
+- "Fourier Response of Avg Magnitude of Body Gyro Jerk" 
+- "StDev of Body Acceleration In X" 
+- "StDev of Body Acceleration In Y" 
+- "StDev of Body Acceleration In Z" 
+- "StDev of Gravity Acceleration In X" 
+- "StDev of Gravity Acceleration In Y" 
+- "StDev of Gravity Acceleration In Z" 
+- "StDev of Body Acceleration Jerk In X" 
+- "StDev of Body Acceleration Jerk In Y" 
+- "StDev of Body Acceleration Jerk In Z" 
+- "StDev of Body Gyro In X" 
+- "StDev of Body Gyro In Y" 
+- "StDev of Body Gyro In Z" 
+- "StDev of Body Gyro Jerk In X"
+- "StDev of Body Gyro Jerk In Y" 
+- "StDev of Body Gyro Jerk In Z" 
+- "StDev of Magnitude of Body Acceleration" 
+- "StDev of Magnitude of Gravity Acceleration"
+- "StDev of Magnitude of Body Acceleration Jerk" 
+- "StDev of Magnitude of Body Gyro"
+- "StDev of Magnitude of Body Gyro Jerk"
+- "Fourier Response of StDev of Body Acceleration In X" 
+- "Fourier Response of StDev of Body Acceleration In Y"
+- "Fourier Response of StDev of Body Acceleration In Z"
+- "Fourier Response of StDev of Body Acceleration Jerk In X"
+- "Fourier Response of StDev of Body Acceleration Jerk In Y" 
+- "Fourier Response of StDev of Body Acceleration Jerk In Z" 
+- "Fourier Response of StDev of Body Gyro In X"
+- "Fourier Response of StDev of Body Gyro In Y" 
+- "Fourier Response of StDev of Body Gyro In Z" 
+- "Fourier Response of StDev of Magnitude of Body Acceleration"
+- "Fourier Response of StDev of Magnitude of Body Acceleration Jerk"
+- "Fourier Response of StDev of Magnitude of Body Gyro"
+- "Fourier Response of StDev of Magnitude of Body Gyro Jerk"
 
