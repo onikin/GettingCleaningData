@@ -82,69 +82,72 @@ Each row represents a combination of individual subject and individual activity
 - Subject: Numeric value indicating the subject whose data has been recorded. Range: 1-30
 - Activity: The activity the subject was performing while data was collected: Range: (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 - "Avg Body Acceleration In X" - Group mean of the average value of this parameter.  
-- "Avg Body Acceleration In Y" 
-- "Avg Body Acceleration In Z" 
-- "Avg Gravity Acceleration In X" 
-- "Avg Gravity Acceleration In Y" 
-- "Avg Gravity Acceleration In Z" 
-- "Avg Body Acceleration Jerk In X" 
-- "Avg Body Acceleration Jerk In Y" 
-- "Avg Body Acceleration Jerk In Z" 
-- "Avg Body Gyro In X" 
-- "Avg Body Gyro In Y" 
-- "Avg Body Gyro In Z" 
-- "Avg Body Gyro Jerk In X" 
-- "Avg Body Gyro Jerk In Y" 
-- "Avg Body Gyro Jerk In Z" 
-- "Avg Magnitude of Body Acceleration" 
-- "Avg Magnitude of Gravity Acceleration" 
-- "Avg Magnitude of Body Acceleration Jerk" 
-- "Avg Magnitude of Body Gyro" 
-- "Avg Magnitude of Body Gyro Jerk" 
-- "Fourier Response of Avg Body Acceleration In X" 
-- "Fourier Response of Avg Body Acceleration In Y" 
-- "Fourier Response of Avg Body Acceleration In Z" 
-- "Fourier Response of Avg Body Acceleration Jerk In X" 
-- "Fourier Response of Avg Body Acceleration Jerk In Y" 
-- "Fourier Response of Avg Body Acceleration Jerk In Z" 
-- "Fourier Response of Avg Body Gyro In X" 
-- "Fourier Response of Avg Body Gyro In Y" 
-- "Fourier Response of Avg Body Gyro In Z" 
-- "Fourier Response of Avg Magnitude of Body Acceleration" 
-- "Fourier Response of Avg Magnitude of Body Acceleration Jerk" 
-- "Fourier Response of Avg Magnitude of Body Gyro" 
-- "Fourier Response of Avg Magnitude of Body Gyro Jerk" 
-- "StDev of Body Acceleration In X" 
-- "StDev of Body Acceleration In Y" 
-- "StDev of Body Acceleration In Z" 
-- "StDev of Gravity Acceleration In X" 
-- "StDev of Gravity Acceleration In Y" 
-- "StDev of Gravity Acceleration In Z" 
-- "StDev of Body Acceleration Jerk In X" 
-- "StDev of Body Acceleration Jerk In Y" 
-- "StDev of Body Acceleration Jerk In Z" 
-- "StDev of Body Gyro In X" 
-- "StDev of Body Gyro In Y" 
-- "StDev of Body Gyro In Z" 
-- "StDev of Body Gyro Jerk In X"
-- "StDev of Body Gyro Jerk In Y" 
-- "StDev of Body Gyro Jerk In Z" 
-- "StDev of Magnitude of Body Acceleration" 
-- "StDev of Magnitude of Gravity Acceleration"
-- "StDev of Magnitude of Body Acceleration Jerk" 
-- "StDev of Magnitude of Body Gyro"
-- "StDev of Magnitude of Body Gyro Jerk"
-- "Fourier Response of StDev of Body Acceleration In X" 
-- "Fourier Response of StDev of Body Acceleration In Y"
-- "Fourier Response of StDev of Body Acceleration In Z"
-- "Fourier Response of StDev of Body Acceleration Jerk In X"
-- "Fourier Response of StDev of Body Acceleration Jerk In Y" 
-- "Fourier Response of StDev of Body Acceleration Jerk In Z" 
-- "Fourier Response of StDev of Body Gyro In X"
-- "Fourier Response of StDev of Body Gyro In Y" 
-- "Fourier Response of StDev of Body Gyro In Z" 
-- "Fourier Response of StDev of Magnitude of Body Acceleration"
-- "Fourier Response of StDev of Magnitude of Body Acceleration Jerk"
-- "Fourier Response of StDev of Magnitude of Body Gyro"
-- "Fourier Response of StDev of Magnitude of Body Gyro Jerk"
+- "Avg Body Acceleration In Y" - Group mean of the average value of this parameter. 
+- "Avg Body Acceleration In Z" - Group mean of the average value of this parameter. 
+- "Avg Gravity Acceleration In X"  - Group mean of the average value of this parameter. 
+- "Avg Gravity Acceleration In Y"  - Group mean of the average value of this parameter. 
+- "Avg Gravity Acceleration In Z" - Group mean of the average value of this parameter. 
+- "Avg Body Acceleration Jerk In X" - Group mean of the average value of this parameter. 
+- "Avg Body Acceleration Jerk In Y"  - Group mean of the average value of this parameter. 
+- "Avg Body Acceleration Jerk In Z" - Group mean of the average value of this parameter. 
+- "Avg Body Gyro In X" - Group mean of the average value of this parameter. 
+- "Avg Body Gyro In Y" - Group mean of the average value of this parameter. 
+- "Avg Body Gyro In Z" - Group mean of the average value of this parameter. 
+- "Avg Body Gyro Jerk In X" - Group mean of the average value of this parameter. 
+- "Avg Body Gyro Jerk In Y" - Group mean of the average value of this parameter. 
+- "Avg Body Gyro Jerk In Z" - Group mean of the average value of this parameter. 
+- "Avg Magnitude of Body Acceleration" - Group mean of the average value of this parameter. 
+- "Avg Magnitude of Gravity Acceleration" - Group mean of the average value of this parameter. 
+- "Avg Magnitude of Body Acceleration Jerk" - Group mean of the average value of this parameter. 
+- "Avg Magnitude of Body Gyro" - Group mean of the average value of this parameter. 
+- "Avg Magnitude of Body Gyro Jerk" - Group mean of the average value of this parameter. 
+- "Fourier Response of Avg Body Acceleration In X" - Group mean of the average value of this parameter. 
+- "Fourier Response of Avg Body Acceleration In Y" - Group mean of the average value of this parameter. 
+- "Fourier Response of Avg Body Acceleration In Z" - Group mean of the average value of this parameter. 
+- "Fourier Response of Avg Body Acceleration Jerk In X" - Group mean of the average value of this parameter. 
+- "Fourier Response of Avg Body Acceleration Jerk In Y" - Group mean of the average value of this parameter. 
+- "Fourier Response of Avg Body Acceleration Jerk In Z" - Group mean of the average value of this parameter. 
+- "Fourier Response of Avg Body Gyro In X" - Group mean of the average value of this parameter. 
+- "Fourier Response of Avg Body Gyro In Y" - Group mean of the average value of this parameter. 
+- "Fourier Response of Avg Body Gyro In Z" - Group mean of the average value of this parameter. 
+- "Fourier Response of Avg Magnitude of Body Acceleration" - Group mean of the average value of this parameter. 
+- "Fourier Response of Avg Magnitude of Body Acceleration Jerk" - Group mean of the average value of this parameter. 
+- "Fourier Response of Avg Magnitude of Body Gyro" - Group mean of the average value of this parameter. 
+- "Fourier Response of Avg Magnitude of Body Gyro Jerk" - Group mean of the average value of this parameter. 
+- "StDev of Body Acceleration In X" - Group mean of the standard deviation value of this parameter. 
+- "StDev of Body Acceleration In Y" - Group mean of the standard deviation value of this parameter. 
+- "StDev of Body Acceleration In Z" - Group mean of the standard deviation value of this parameter. 
+- "StDev of Gravity Acceleration In X" - Group mean of the standard deviation value of this parameter. 
+- "StDev of Gravity Acceleration In Y" - Group mean of the standard deviation value of this parameter. 
+- "StDev of Gravity Acceleration In Z" - Group mean of the standard deviation value of this parameter. 
+- "StDev of Body Acceleration Jerk In X" - Group mean of the standard deviation value of this parameter. 
+- "StDev of Body Acceleration Jerk In Y" - Group mean of the standard deviation value of this parameter. 
+- "StDev of Body Acceleration Jerk In Z" - Group mean of the standard deviation value of this parameter. 
+- "StDev of Body Gyro In X" - Group mean of the standard deviation value of this parameter. 
+- "StDev of Body Gyro In Y" - Group mean of the standard deviation value of this parameter. 
+- "StDev of Body Gyro In Z" - Group mean of the standard deviation value of this parameter. 
+- "StDev of Body Gyro Jerk In X" - Group mean of the standard deviation value of this parameter. 
+- "StDev of Body Gyro Jerk In Y" - Group mean of the standard deviation value of this parameter. 
+- "StDev of Body Gyro Jerk In Z" - Group mean of the standard deviation value of this parameter. 
+- "StDev of Magnitude of Body Acceleration" - Group mean of the standard deviation value of this parameter. 
+- "StDev of Magnitude of Gravity Acceleration" - Group mean of the standard deviation value of this parameter. 
+- "StDev of Magnitude of Body Acceleration Jerk" - Group mean of the standard deviation value of this parameter. 
+- "StDev of Magnitude of Body Gyro" - Group mean of the standard deviation value of this parameter. 
+- "StDev of Magnitude of Body Gyro Jerk" - Group mean of the standard deviation value of this parameter. 
+- "Fourier Response of StDev of Body Acceleration In X" - Group mean of the standard deviation value of this parameter. 
+- "Fourier Response of StDev of Body Acceleration In Y" - Group mean of the standard deviation value of this parameter. 
+- "Fourier Response of StDev of Body Acceleration In Z" - Group mean of the standard deviation value of this parameter. 
+- "Fourier Response of StDev of Body Acceleration Jerk In X" - Group mean of the standard deviation value of this parameter. 
+- "Fourier Response of StDev of Body Acceleration Jerk In Y" - Group mean of the standard deviation value of this parameter. 
+- "Fourier Response of StDev of Body Acceleration Jerk In Z" - Group mean of the standard deviation value of this parameter. 
+- "Fourier Response of StDev of Body Gyro In X" - Group mean of the standard deviation value of this parameter. 
+- "Fourier Response of StDev of Body Gyro In Y" - Group mean of the standard deviation value of this parameter. 
+- "Fourier Response of StDev of Body Gyro In Z" - Group mean of the standard deviation value of this parameter. 
+- "Fourier Response of StDev of Magnitude of Body Acceleration" - Group mean of the standard deviation value of this parameter. 
+- "Fourier Response of StDev of Magnitude of Body Acceleration Jerk" - Group mean of the standard deviation value of this parameter. 
+- "Fourier Response of StDev of Magnitude of Body Gyro" - Group mean of the standard deviation value of this parameter. 
+- "Fourier Response of StDev of Magnitude of Body Gyro Jerk" - Group mean of the standard deviation value of this parameter. 
 
+## Data Summary
+
+The data consists of 30 subjects spanning 6 activities each for a total of 180 measurements (rows) in the dataset. A total of 33 measurements of mean and 33 measurements of standard deviation for each of the rows are measured and tabulated. Note that the means and standard deviations in the table are actually sample means of the underlaying data that measures actual mean and standard deviation values. 
