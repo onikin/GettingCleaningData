@@ -1,2 +1,2 @@
-# Code Book for Course Proejct Data that has been "Tidied"
+# Code Book for Course Project Data that has been "Tidied"
 
